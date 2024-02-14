@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleSpawnScript : MonoBehaviour
 {
     public GameObject obstacle;
-    public float spawnRate = 3;
+    public float spawnRate = 2;
     public float heightOffset = 5; 
     private float timer = 0;
     // Start is called before the first frame update
@@ -32,6 +32,7 @@ public class ObstacleSpawnScript : MonoBehaviour
     {
         float highestPoint = transform.position.y + heightOffset;
         float lowestPoint = transform.position.y - heightOffset;
-        Instantiate(obstacle, new Vector3(transform.position.x, Random.Range(highestPoint,lowestPoint), 0), transform.rotation);
+        float startPoint = 9;
+        Instantiate(obstacle, new Vector3(startPoint, Random.Range(highestPoint,lowestPoint), 0), transform.rotation);
     }
 }

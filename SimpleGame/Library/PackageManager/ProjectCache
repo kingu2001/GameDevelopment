@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638434364811876318
-    m_Hash: 2371964185
+      ticks: 638434426841375874
+    m_Hash: 3104217734
   m_LockFileStatus:
     m_FilePath: C:/Users/kiet-/source/repos/GameDevelopment/SimpleGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638434365539586230
-    m_Hash: 3228780223
+      ticks: 638434426841375874
+    m_Hash: 1234274519
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
